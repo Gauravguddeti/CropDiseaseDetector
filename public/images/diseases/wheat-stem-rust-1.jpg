@@ -1,0 +1,71 @@
+<!-- Wheat Stem Rust Disease Placeholder Image -->
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f5f2ea"/>
+  
+  <!-- Wheat stem background -->
+  <g transform="translate(400, 300)">
+    <!-- Main stem -->
+    <rect x="-40" y="-250" width="80" height="500" rx="5" ry="5" fill="#D6CB9E"/>
+    
+    <!-- Rust pustules -->
+    <g>
+      <ellipse cx="-25" cy="-180" rx="25" ry="15" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(-10)"/>
+      <ellipse cx="15" cy="-220" rx="20" ry="13" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(5)"/>
+      <ellipse cx="20" cy="-150" rx="22" ry="14" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(-15)"/>
+      <ellipse cx="-22" cy="-120" rx="18" ry="12" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(10)"/>
+      <ellipse cx="25" cy="-90" rx="20" ry="14" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(-5)"/>
+      <ellipse cx="-15" cy="-60" rx="25" ry="16" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(-12)"/>
+      <ellipse cx="18" cy="-30" rx="22" ry="15" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(8)"/>
+      <ellipse cx="-20" cy="20" rx="20" ry="13" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(-7)"/>
+      <ellipse cx="25" cy="60" rx="24" ry="15" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(12)"/>
+      <ellipse cx="-22" cy="100" rx="21" ry="14" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(-5)"/>
+      <ellipse cx="15" cy="140" rx="23" ry="16" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(10)"/>
+      <ellipse cx="-18" cy="180" rx="19" ry="13" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(-15)"/>
+      
+      <!-- Rust spores texture -->
+      <g opacity="0.7">
+        <circle cx="-25" cy="-180" r="2" fill="#D96A25"/>
+        <circle cx="-30" cy="-182" r="1.5" fill="#D96A25"/>
+        <circle cx="-20" cy="-185" r="2.5" fill="#D96A25"/>
+        <circle cx="-27" cy="-175" r="2" fill="#D96A25"/>
+        
+        <circle cx="15" cy="-220" r="2" fill="#D96A25"/>
+        <circle cx="10" cy="-222" r="1.5" fill="#D96A25"/>
+        <circle cx="20" cy="-225" r="2.5" fill="#D96A25"/>
+        <circle cx="17" cy="-215" r="2" fill="#D96A25"/>
+        
+        <!-- Similar patterns for other pustules -->
+      </g>
+      
+      <!-- Torn epidermis effect on pustules -->
+      <path d="M-40,-185 C-35,-183 -30,-181 -20,-184 C-10,-187 0,-184 10,-182" stroke="#D6CB9E" stroke-width="1" fill="none"/>
+      <path d="M0,-225 C5,-223 10,-221 20,-224 C30,-227 40,-224 50,-222" stroke="#D6CB9E" stroke-width="1" fill="none"/>
+      <!-- Similar patterns for other pustules -->
+    </g>
+    
+    <!-- Wheat head -->
+    <g transform="translate(0, -260)">
+      <path d="M0,0 L-20,-30 L0,-60" stroke="#D6CB9E" stroke-width="10" fill="none"/>
+      <path d="M0,0 L20,-30 L0,-60" stroke="#D6CB9E" stroke-width="10" fill="none"/>
+      
+      <!-- Wheat grains -->
+      <g transform="translate(-20, -30)">
+        <ellipse cx="0" cy="0" rx="5" ry="10" fill="#E8D0A9" stroke="#C1A878" stroke-width="1" transform="rotate(-45)"/>
+        <ellipse cx="5" cy="-5" rx="5" ry="10" fill="#E8D0A9" stroke="#C1A878" stroke-width="1" transform="rotate(-45)"/>
+      </g>
+      
+      <g transform="translate(20, -30)">
+        <ellipse cx="0" cy="0" rx="5" ry="10" fill="#E8D0A9" stroke="#C1A878" stroke-width="1" transform="rotate(45)"/>
+        <ellipse cx="-5" cy="-5" rx="5" ry="10" fill="#E8D0A9" stroke="#C1A878" stroke-width="1" transform="rotate(45)"/>
+      </g>
+      
+      <!-- Rust pustules on wheat head -->
+      <ellipse cx="-15" cy="-28" rx="10" ry="6" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(-45)"/>
+      <ellipse cx="15" cy="-28" rx="8" ry="5" fill="#8B3D0B" stroke="#5A2905" stroke-width="1" transform="rotate(45)"/>
+    </g>
+  </g>
+  
+  <!-- Disease name and info -->
+  <text x="400" y="550" font-family="Arial" font-size="32" text-anchor="middle" fill="#5c4d3c">Wheat Stem Rust</text>
+  <text x="400" y="580" font-family="Arial" font-size="18" text-anchor="middle" fill="#7d7364">Puccinia graminis f.sp. tritici</text>
+</svg>

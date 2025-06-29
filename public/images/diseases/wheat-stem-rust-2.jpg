@@ -1,0 +1,114 @@
+<!-- Wheat Stem Rust Close-Up View -->
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f5f2ea"/>
+  
+  <!-- Magnified section background -->
+  <circle cx="400" cy="300" r="250" fill="#fff" stroke="#7d7364" stroke-width="3"/>
+  
+  <!-- Magnified wheat stem with rust -->
+  <g transform="translate(400, 300)">
+    <!-- Stem tissue -->
+    <rect x="-150" y="-200" width="300" height="400" rx="5" ry="5" fill="#E5DFB5"/>
+    
+    <!-- Cellular structure -->
+    <g stroke="#D6CB9E" stroke-width="1" fill="none">
+      <line x1="-150" y1="-150" x2="150" y2="-150"/>
+      <line x1="-150" y1="-100" x2="150" y2="-100"/>
+      <line x1="-150" y1="-50" x2="150" y2="-50"/>
+      <line x1="-150" y1="0" x2="150" y2="0"/>
+      <line x1="-150" y1="50" x2="150" y2="50"/>
+      <line x1="-150" y1="100" x2="150" y2="100"/>
+      <line x1="-150" y1="150" x2="150" y2="150"/>
+      
+      <line x1="-100" y1="-200" x2="-100" y2="200"/>
+      <line x1="-50" y1="-200" x2="-50" y2="200"/>
+      <line x1="0" y1="-200" x2="0" y2="200"/>
+      <line x1="50" y1="-200" x2="50" y2="200"/>
+      <line x1="100" y1="-200" x2="100" y2="200"/>
+    </g>
+    
+    <!-- Large rust pustules -->
+    <g>
+      <!-- Large central pustule -->
+      <path d="M-70,-30 C-90,-50 -70,-90 -30,-80 C10,-70 20,-20 -10,0 C-40,20 -50,0 -70,-30Z" fill="#A84D10"/>
+      
+      <!-- Torn epidermis effect -->
+      <path d="M-70,-30 C-50,-40 -30,-45 -10,-40 C10,-35 20,-20 -10,0" stroke="#E5DFB5" stroke-width="2" fill="none"/>
+      
+      <!-- Spore texture -->
+      <g opacity="0.8">
+        <circle cx="-60" cy="-60" r="5" fill="#D96A25"/>
+        <circle cx="-45" cy="-70" r="6" fill="#D96A25"/>
+        <circle cx="-25" cy="-65" r="5" fill="#D96A25"/>
+        <circle cx="-10" cy="-55" r="7" fill="#D96A25"/>
+        <circle cx="5" cy="-40" r="5" fill="#D96A25"/>
+        <circle cx="-55" cy="-45" r="6" fill="#D96A25"/>
+        <circle cx="-35" cy="-50" r="5" fill="#D96A25"/>
+        <circle cx="-15" cy="-40" r="7" fill="#D96A25"/>
+        <circle cx="0" cy="-25" r="6" fill="#D96A25"/>
+        <circle cx="-45" cy="-30" r="5" fill="#D96A25"/>
+        <circle cx="-25" cy="-25" r="6" fill="#D96A25"/>
+        <circle cx="-5" cy="-15" r="5" fill="#D96A25"/>
+        <circle cx="-30" cy="-10" r="7" fill="#D96A25"/>
+      </g>
+      
+      <!-- Secondary pustule -->
+      <path d="M50,60 C30,40 50,0 90,10 C130,20 140,70 110,90 C80,110 70,90 50,60Z" fill="#A84D10"/>
+      
+      <!-- Torn epidermis effect -->
+      <path d="M50,60 C70,50 90,45 110,50 C130,55 140,70 110,90" stroke="#E5DFB5" stroke-width="2" fill="none"/>
+      
+      <!-- Spore texture -->
+      <g opacity="0.8">
+        <circle cx="60" cy="30" r="5" fill="#D96A25"/>
+        <circle cx="75" cy="20" r="6" fill="#D96A25"/>
+        <circle cx="95" cy="25" r="5" fill="#D96A25"/>
+        <circle cx="110" cy="35" r="7" fill="#D96A25"/>
+        <circle cx="125" cy="50" r="5" fill="#D96A25"/>
+        <circle cx="65" cy="45" r="6" fill="#D96A25"/>
+        <circle cx="85" cy="40" r="5" fill="#D96A25"/>
+        <circle cx="105" cy="50" r="7" fill="#D96A25"/>
+        <circle cx="120" cy="65" r="6" fill="#D96A25"/>
+        <circle cx="75" cy="60" r="5" fill="#D96A25"/>
+        <circle cx="95" cy="65" r="6" fill="#D96A25"/>
+        <circle cx="115" cy="75" r="5" fill="#D96A25"/>
+        <circle cx="90" cy="80" r="7" fill="#D96A25"/>
+      </g>
+      
+      <!-- Third pustule -->
+      <path d="M-120,120 C-140,100 -120,60 -80,70 C-40,80 -30,130 -60,150 C-90,170 -100,150 -120,120Z" fill="#A84D10" transform="scale(0.8)"/>
+      
+      <!-- Torn epidermis effect -->
+      <path d="M-120,120 C-100,110 -80,105 -60,110 C-40,115 -30,130 -60,150" stroke="#E5DFB5" stroke-width="2" fill="none" transform="scale(0.8)"/>
+      
+      <!-- Spore texture -->
+      <g opacity="0.8" transform="scale(0.8)">
+        <circle cx="-110" cy="90" r="5" fill="#D96A25"/>
+        <circle cx="-95" cy="80" r="6" fill="#D96A25"/>
+        <circle cx="-75" cy="85" r="5" fill="#D96A25"/>
+        <circle cx="-60" cy="95" r="7" fill="#D96A25"/>
+        <circle cx="-45" cy="110" r="5" fill="#D96A25"/>
+        <circle cx="-105" cy="105" r="6" fill="#D96A25"/>
+        <circle cx="-85" cy="100" r="5" fill="#D96A25"/>
+        <circle cx="-65" cy="110" r="7" fill="#D96A25"/>
+        <circle cx="-50" cy="125" r="6" fill="#D96A25"/>
+        <circle cx="-95" cy="120" r="5" fill="#D96A25"/>
+        <circle cx="-75" cy="125" r="6" fill="#D96A25"/>
+        <circle cx="-55" cy="135" r="5" fill="#D96A25"/>
+        <circle cx="-80" cy="140" r="7" fill="#D96A25"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Microscope-style scale -->
+  <g transform="translate(600, 500)">
+    <line x1="0" y1="0" x2="100" y2="0" stroke="#7d7364" stroke-width="3"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#7d7364" stroke-width="3"/>
+    <line x1="100" y1="-5" x2="100" y2="5" stroke="#7d7364" stroke-width="3"/>
+    <text x="50" y="25" font-family="Arial" font-size="16" text-anchor="middle" fill="#7d7364">2 mm</text>
+  </g>
+  
+  <!-- Disease name and info -->
+  <text x="400" y="30" font-family="Arial" font-size="32" text-anchor="middle" fill="#5c4d3c">Wheat Stem Rust - Close-Up</text>
+  <text x="400" y="60" font-family="Arial" font-size="18" text-anchor="middle" fill="#7d7364">Showing characteristic pustules with torn epidermis</text>
+</svg>

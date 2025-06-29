@@ -1,0 +1,28 @@
+<!-- Rice False Smut Disease Placeholder Image -->
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f5f2ea"/>
+  <g transform="translate(400, 300)">
+    <g transform="translate(-150, -100)">
+      <!-- Rice plant stylized -->
+      <path d="M150,200 L150,50 C150,50 120,70 120,20 C120,-30 150,-10 150,-50 L150,200" fill="#97C84A" stroke="#566D31" stroke-width="2"/>
+      <path d="M150,200 L150,60 C150,60 180,80 180,30 C180,-20 150,0 150,-40 L150,200" fill="#97C84A" stroke="#566D31" stroke-width="2"/>
+      
+      <!-- Rice grains -->
+      <g transform="translate(125, -20)">
+        <!-- Normal grains -->
+        <ellipse cx="0" cy="0" rx="5" ry="12" fill="#E8D0A9" stroke="#C1A878" stroke-width="1" transform="rotate(-10)"/>
+        <ellipse cx="10" cy="-5" rx="5" ry="12" fill="#E8D0A9" stroke="#C1A878" stroke-width="1" transform="rotate(10)"/>
+        <ellipse cx="20" cy="0" rx="5" ry="12" fill="#E8D0A9" stroke="#C1A878" stroke-width="1" transform="rotate(-5)"/>
+        
+        <!-- False smut infected grains (larger, darker) -->
+        <circle cx="15" cy="15" r="14" fill="#2D4D2A" stroke="#152113" stroke-width="1"/>
+        <circle cx="0" cy="25" r="12" fill="#4A742F" stroke="#2A431C" stroke-width="1"/>
+        <circle cx="25" cy="30" r="13" fill="#1E331A" stroke="#0A130A" stroke-width="1"/>
+      </g>
+    </g>
+    
+    <!-- Disease name and info -->
+    <text x="0" y="150" font-family="Arial" font-size="32" text-anchor="middle" fill="#5c4d3c">Rice False Smut</text>
+    <text x="0" y="185" font-family="Arial" font-size="18" text-anchor="middle" fill="#7d7364">Ustilaginoidea virens</text>
+  </g>
+</svg>

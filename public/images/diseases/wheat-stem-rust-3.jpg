@@ -1,0 +1,124 @@
+<!-- Wheat Stem Rust Disease Life Cycle -->
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f5f2ea"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" font-family="Arial" font-size="24" text-anchor="middle" fill="#5c4d3c" font-weight="bold">Wheat Stem Rust - Disease Cycle</text>
+  <text x="400" y="65" font-family="Arial" font-size="18" text-anchor="middle" fill="#7d7364" font-style="italic">Puccinia graminis f.sp. tritici</text>
+  
+  <!-- Circular lifecycle diagram background -->
+  <circle cx="400" cy="320" r="200" fill="none" stroke="#7d7364" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Stage 1: Urediniospores on wheat -->
+  <g transform="translate(400, 120)">
+    <circle cx="0" cy="0" r="60" fill="#f5f2ea" stroke="#7d7364" stroke-width="2"/>
+    <!-- Wheat stem with rust -->
+    <rect x="-15" y="-40" width="30" height="80" rx="5" ry="5" fill="#E5DFB5"/>
+    <ellipse cx="0" cy="0" rx="20" ry="12" fill="#A84D10" stroke="#5A2905" stroke-width="1"/>
+    <!-- Spores releasing -->
+    <g fill="#D96A25">
+      <circle cx="15" cy="-15" r="3"/>
+      <circle cx="20" cy="-5" r="2"/>
+      <circle cx="25" cy="5" r="3"/>
+      <circle cx="22" cy="15" r="2"/>
+      <circle cx="30" cy="0" r="3"/>
+      <circle cx="35" cy="-10" r="2"/>
+      <circle cx="32" cy="10" r="3"/>
+    </g>
+    <text x="0" y="50" font-family="Arial" font-size="12" text-anchor="middle" fill="#5c4d3c">Urediniospores infect</text>
+    <text x="0" y="65" font-family="Arial" font-size="12" text-anchor="middle" fill="#5c4d3c">wheat plants</text>
+  </g>
+  
+  <!-- Stage 2: Uredinia formation -->
+  <g transform="translate(600, 250)">
+    <circle cx="0" cy="0" r="60" fill="#f5f2ea" stroke="#7d7364" stroke-width="2"/>
+    <!-- Magnified leaf section with uredinia -->
+    <rect x="-40" y="-30" width="80" height="60" rx="5" ry="5" fill="#E5DFB5"/>
+    <ellipse cx="-20" cy="-10" rx="15" ry="8" fill="#A84D10" stroke="#5A2905" stroke-width="1"/>
+    <ellipse cx="15" cy="10" rx="18" ry="10" fill="#A84D10" stroke="#5A2905" stroke-width="1"/>
+    <!-- Cell structure -->
+    <path d="M-40,-10 L40,-10 M-40,10 L40,10 M-20,-30 L-20,30 M0,-30 L0,30 M20,-30 L20,30" stroke="#D6CB9E" stroke-width="1"/>
+    <text x="0" y="50" font-family="Arial" font-size="12" text-anchor="middle" fill="#5c4d3c">Uredinia develop on</text>
+    <text x="0" y="65" font-family="Arial" font-size="12" text-anchor="middle" fill="#5c4d3c">leaves and stems</text>
+  </g>
+  
+  <!-- Stage 3: Teliospore formation -->
+  <g transform="translate(520, 450)">
+    <circle cx="0" cy="0" r="60" fill="#f5f2ea" stroke="#7d7364" stroke-width="2"/>
+    <!-- Wheat stem with telia -->
+    <rect x="-15" y="-40" width="30" height="80" rx="5" ry="5" fill="#E5DFB5"/>
+    <ellipse cx="0" cy="0" rx="20" ry="12" fill="#1F1A17" stroke="#000000" stroke-width="1"/>
+    <!-- Teliospore detail -->
+    <g transform="translate(25, -20) scale(0.5)">
+      <!-- Single teliospore enlarged -->
+      <path d="M0,0 C5,-15 15,-15 20,0 C15,15 5,15 0,0 Z" fill="#1F1A17" stroke="#000000" stroke-width="1"/>
+      <line x1="10" y1="-7" x2="10" y2="7" stroke="#333" stroke-width="1"/>
+    </g>
+    <text x="0" y="50" font-family="Arial" font-size="12" text-anchor="middle" fill="#5c4d3c">Telia form late in</text>
+    <text x="0" y="65" font-family="Arial" font-size="12" text-anchor="middle" fill="#5c4d3c">growing season</text>
+  </g>
+  
+  <!-- Stage 4: Barberry infection -->
+  <g transform="translate(280, 450)">
+    <circle cx="0" cy="0" r="60" fill="#f5f2ea" stroke="#7d7364" stroke-width="2"/>
+    <!-- Barberry leaf -->
+    <path d="M-30,-20 C-20,-40 20,-40 30,-20 C40,0 40,20 30,30 C10,40 -10,40 -30,30 C-40,20 -40,0 -30,-20 Z" fill="#97C84A" stroke="#566D31" stroke-width="2"/>
+    <!-- Aecia -->
+    <g transform="translate(-15, 0)">
+      <circle cx="0" cy="0" r="8" fill="#FFF5D1" stroke="#E5DAB5" stroke-width="1"/>
+      <circle cx="0" cy="0" r="4" fill="#F9EEC0"/>
+    </g>
+    <g transform="translate(10, 5)">
+      <circle cx="0" cy="0" r="7" fill="#FFF5D1" stroke="#E5DAB5" stroke-width="1"/>
+      <circle cx="0" cy="0" r="3.5" fill="#F9EEC0"/>
+    </g>
+    <text x="0" y="50" font-family="Arial" font-size="12" text-anchor="middle" fill="#5c4d3c">Basidiospores infect</text>
+    <text x="0" y="65" font-family="Arial" font-size="12" text-anchor="middle" fill="#5c4d3c">barberry (alt. host)</text>
+  </g>
+  
+  <!-- Stage 5: Aeciospores -->
+  <g transform="translate(200, 250)">
+    <circle cx="0" cy="0" r="60" fill="#f5f2ea" stroke="#7d7364" stroke-width="2"/>
+    <!-- Barberry leaf section -->
+    <rect x="-30" y="-20" width="60" height="40" fill="#97C84A" stroke="#566D31" stroke-width="2"/>
+    <!-- Aecia with spores -->
+    <path d="M-15,-10 C-20,-15 -20,-5 -15,0 C-10,5 -10,-5 -15,-10 Z" fill="#FFF5D1" stroke="#E5DAB5" stroke-width="1"/>
+    <path d="M5,5 C0,0 0,10 5,15 C10,20 10,10 5,5 Z" fill="#FFF5D1" stroke="#E5DAB5" stroke-width="1"/>
+    <!-- Aeciospores -->
+    <g fill="#F9EEC0">
+      <circle cx="-25" cy="-5" r="2"/>
+      <circle cx="-20" cy="-10" r="2"/>
+      <circle cx="-18" cy="5" r="2"/>
+      <circle cx="-5" cy="15" r="2"/>
+      <circle cx="0" cy="20" r="2"/>
+      <circle cx="15" cy="5" r="2"/>
+    </g>
+    <text x="0" y="50" font-family="Arial" font-size="12" text-anchor="middle" fill="#5c4d3c">Aecia produce</text>
+    <text x="0" y="65" font-family="Arial" font-size="12" text-anchor="middle" fill="#5c4d3c">aeciospores</text>
+  </g>
+  
+  <!-- Connecting arrows -->
+  <g stroke="#7d7364" stroke-width="2" fill="none">
+    <!-- Stage 1 to 2 -->
+    <path d="M460,140 Q520,150 580,220" marker-end="url(#arrowhead)"/>
+    <!-- Stage 2 to 3 -->
+    <path d="M600,310 Q590,380 550,430" marker-end="url(#arrowhead)"/>
+    <!-- Stage 3 to 4 -->
+    <path d="M460,450 L340,450" marker-end="url(#arrowhead)"/>
+    <!-- Stage 4 to 5 -->
+    <path d="M250,410 Q230,350 220,310" marker-end="url(#arrowhead)"/>
+    <!-- Stage 5 to 1 -->
+    <path d="M240,200 Q300,150 340,140" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7d7364"/>
+    </marker>
+  </defs>
+  
+  <!-- Center text -->
+  <text x="400" y="315" font-family="Arial" font-size="14" text-anchor="middle" fill="#5c4d3c" font-weight="bold">DISEASE</text>
+  <text x="400" y="335" font-family="Arial" font-size="14" text-anchor="middle" fill="#5c4d3c" font-weight="bold">CYCLE</text>
+</svg>

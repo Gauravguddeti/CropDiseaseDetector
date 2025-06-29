@@ -1,0 +1,83 @@
+<!-- Rice False Smut Disease Placeholder Image - Field View -->
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f5f2ea"/>
+  
+  <!-- Background rice field -->
+  <rect width="800" height="300" y="150" fill="#D1E7A7"/>
+  
+  <!-- Rice plants in the background -->
+  <g opacity="0.7">
+    <g transform="translate(100, 200)">
+      <path d="M0,0 L0,-100 M0,-50 L-20,-90 M0,-60 L20,-100" stroke="#97C84A" stroke-width="3"/>
+    </g>
+    <g transform="translate(200, 180)">
+      <path d="M0,0 L0,-110 M0,-50 L-20,-100 M0,-70 L20,-110" stroke="#97C84A" stroke-width="3"/>
+    </g>
+    <g transform="translate(300, 190)">
+      <path d="M0,0 L0,-100 M0,-40 L-30,-90 M0,-50 L30,-100" stroke="#97C84A" stroke-width="3"/>
+    </g>
+    <g transform="translate(500, 200)">
+      <path d="M0,0 L0,-120 M0,-60 L-25,-110 M0,-70 L25,-120" stroke="#97C84A" stroke-width="3"/>
+    </g>
+    <g transform="translate(600, 180)">
+      <path d="M0,0 L0,-100 M0,-40 L-20,-90 M0,-60 L30,-100" stroke="#97C84A" stroke-width="3"/>
+    </g>
+    <g transform="translate(700, 190)">
+      <path d="M0,0 L0,-110 M0,-50 L-30,-100 M0,-60 L20,-110" stroke="#97C84A" stroke-width="3"/>
+    </g>
+  </g>
+  
+  <!-- Foreground rice plant with false smut -->
+  <g transform="translate(400, 450)">
+    <!-- Rice stems -->
+    <path d="M0,0 L0,-200 M0,-100 L-30,-180 M0,-120 L30,-190" stroke="#566D31" stroke-width="4"/>
+    <path d="M0,0 L0,-200 M0,-100 L-30,-180 M0,-120 L30,-190" stroke="#97C84A" stroke-width="2"/>
+    
+    <!-- Rice panicle with infected grains -->
+    <g transform="translate(0, -190)">
+      <!-- Branches of panicle -->
+      <path d="M0,0 L-5,-10 L-15,-15 M-5,-10 L-20,-5" stroke="#566D31" stroke-width="1.5"/>
+      <path d="M0,0 L5,-10 L15,-15 M5,-10 L20,-5" stroke="#566D31" stroke-width="1.5"/>
+      <path d="M0,0 L-2,-15 L-10,-25 M-2,-15 L-12,-20" stroke="#566D31" stroke-width="1.5"/>
+      <path d="M0,0 L2,-15 L10,-25 M2,-15 L12,-20" stroke="#566D31" stroke-width="1.5"/>
+      
+      <!-- Healthy grains -->
+      <ellipse cx="-15" cy="-15" rx="2" ry="5" fill="#E8D0A9" transform="rotate(-20)"/>
+      <ellipse cx="-20" cy="-5" rx="2" ry="5" fill="#E8D0A9" transform="rotate(-10)"/>
+      <ellipse cx="20" cy="-5" rx="2" ry="5" fill="#E8D0A9" transform="rotate(10)"/>
+      <ellipse cx="-10" cy="-25" rx="2" ry="5" fill="#E8D0A9" transform="rotate(-30)"/>
+      
+      <!-- False smut infected grains (larger, darker) -->
+      <circle cx="15" cy="-15" r="7" fill="#2D4D2A" stroke="#152113" stroke-width="1"/>
+      <circle cx="10" cy="-25" r="6" fill="#4A742F" stroke="#2A431C" stroke-width="1"/>
+      <circle cx="12" cy="-20" r="5" fill="#1E331A" stroke="#0A130A" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- Magnified view of false smut -->
+  <g transform="translate(200, 300)">
+    <circle cx="0" cy="0" r="100" fill="white" stroke="#7d7364" stroke-width="3"/>
+    
+    <!-- Magnified false smut balls -->
+    <circle cx="-30" cy="-20" r="35" fill="#2D4D2A" stroke="#152113" stroke-width="2"/>
+    <circle cx="30" cy="20" r="30" fill="#4A742F" stroke="#2A431C" stroke-width="2"/>
+    <circle cx="10" cy="-30" r="25" fill="#1E331A" stroke="#0A130A" stroke-width="2"/>
+    
+    <!-- Texture on smut balls -->
+    <g opacity="0.4">
+      <circle cx="-30" cy="-20" r="28" fill="none" stroke="#152113" stroke-width="1"/>
+      <circle cx="-30" cy="-20" r="20" fill="none" stroke="#152113" stroke-width="1"/>
+      <circle cx="30" cy="20" r="23" fill="none" stroke="#2A431C" stroke-width="1"/>
+      <circle cx="30" cy="20" r="15" fill="none" stroke="#2A431C" stroke-width="1"/>
+      <circle cx="10" cy="-30" r="18" fill="none" stroke="#0A130A" stroke-width="1"/>
+      <circle cx="10" cy="-30" r="10" fill="none" stroke="#0A130A" stroke-width="1"/>
+    </g>
+    
+    <!-- Magnifying glass effect -->
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#7d7364" stroke-width="3"/>
+    <ellipse cx="60" cy="-60" rx="20" ry="15" fill="white" opacity="0.4" transform="rotate(30)"/>
+  </g>
+  
+  <!-- Disease name and info -->
+  <text x="400" y="550" font-family="Arial" font-size="32" text-anchor="middle" fill="#5c4d3c">Rice False Smut - Field Symptoms</text>
+</svg>
