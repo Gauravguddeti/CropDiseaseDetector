@@ -33,14 +33,8 @@ export default defineConfig({
         }
       }
     },
-    // Minify output for production
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        // Remove console.logs in production
-        drop_console: true,
-      },
-    }
+    // Use esbuild for minification instead of terser for better compatibility
+    minify: 'esbuild'
   },
   // Optimize dependencies for faster dev server startup
   optimizeDeps: {
