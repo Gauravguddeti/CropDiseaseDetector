@@ -1,10 +1,6 @@
 # CropScan AI - Crop Disease Detection
 
-A modern web appli- GitHub: [https://github.com/Gauravguddeti](https://github.com/Gauravguddeti)
-
-## 🚀 Live Demo
-
-Visit the live application: **[Your Vercel URL]** (will be updated after deployment)n built with React.js and Material UI that helps farmers identify crop diseases using AI-powered image analysis.
+A modern web application built with React.js and Material UI that helps farmers identify crop diseases using AI-powered image analysis.
 
 ## 🌾 Features
 

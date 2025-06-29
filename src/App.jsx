@@ -9,7 +9,6 @@ import Home from './pages/Home';  // Keep Home non-lazy for faster initial load
 const DetectDisease = lazy(() => import('./pages/DetectDisease'));
 const DiseaseLibrary = lazy(() => import('./pages/DiseaseLibrary.jsx'));
 const About = lazy(() => import('./pages/About'));
-const DatasetManager = lazy(() => import('./pages/DatasetManager'));
 const SupportedCrops = lazy(() => import('./components/SupportedCrops'));
 import './App.css';
 
@@ -98,11 +97,6 @@ function App() {
               <Route path="/about" element={
                 <Suspense fallback={<LoadingFallback />}>
                   <About />
-                </Suspense>
-              } />
-              <Route path="/dataset-manager" element={
-                <Suspense fallback={<LoadingFallback />}>
-                  <DatasetManager />
                 </Suspense>
               } />
               <Route path="/supported-crops" element={
