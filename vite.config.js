@@ -44,7 +44,7 @@ export default defineConfig({
   },
   // Optimize dependencies for faster dev server startup
   optimizeDeps: {
-    include: ['react', 'react-dom', 'react-router-dom', '@mui/material', '@mui/icons-material'],
+    include: ['react', 'react-dom', 'react-router-dom', '@mui/material', '@mui/icons-material', 'clsx'],
     // Include TensorFlow for proper module resolution
     force: true
   },
