@@ -1,10 +1,12 @@
 # CropScan AI - Crop Disease Detection
 
-A modern web applica## 🚀 Live Demo
+A modern web application built with React.js and Material UI that helps farmers identify crop diseases using AI-powered image analysis.
+
+## 🚀 Live Demo
 
 Visit the live application: **[Your Vercel URL]** (will be updated after deployment)
 
-**Build Status**: ✅ Ready for deployment - All major build issues resolved!n built with React.js and Material UI that helps farmers identify crop diseases using AI-powered image analysis.
+**Build Status**: ✅ Ready for deployment - All major build issues resolved!
 
 ## 🌾 Features
 
@@ -16,7 +18,7 @@ Visit the live application: **[Your Vercel URL]** (will be updated after deploym
 
 ## 🚀 Tech Stack
 
-- **Frontend**: React.js 19, Material UI 7
+- **Frontend**: React.js 19, Material UI 6
 - **AI/ML**: TensorFlow.js with fallback compatible analysis
 - **Build Tool**: Vite 7
 - **Routing**: React Router DOM 7
@@ -55,17 +57,6 @@ npm run dev
 npm run build
 ```
 
-## 📞 Contact
-
-**Gaurav Guddeti**
-- Email: guddetigaurav1@gmail.com
-- LinkedIn: [www.linkedin.com/in/gaurav-guddeti-a2359827b](https://www.linkedin.com/in/gaurav-guddeti-a2359827b)
-- GitHub: [https://github.com/Gauravguddeti](https://github.com/Gauravguddeti)
-
-## � Live Demo
-
-Visit the live application: **[Your Vercel URL]** (will be updated after deployment)
-
 ## 💡 Features Highlight
 
 - **Instant Analysis**: Upload and analyze crop images in seconds
@@ -83,6 +74,13 @@ src/
 ├── data/               # Disease database and model classes
 └── assets/             # Static assets
 ```
+
+## 📞 Contact
+
+**Gaurav Guddeti**
+- Email: guddetigaurav1@gmail.com
+- LinkedIn: [www.linkedin.com/in/gaurav-guddeti-a2359827b](https://www.linkedin.com/in/gaurav-guddeti-a2359827b)
+- GitHub: [https://github.com/Gauravguddeti](https://github.com/Gauravguddeti)
 
 ## 📄 License
 

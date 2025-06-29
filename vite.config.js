@@ -15,12 +15,21 @@ export default defineConfig({
     // Enable faster dependency scanning
     fs: {
       strict: false
+    },
+    // Windows specific optimizations
+    watch: {
+      usePolling: false,
+      useFsEvents: false
     }
   },
   build: {
     // Optimize chunk size for better loading performance
     chunkSizeWarningLimit: 1000,
+    // Use esbuild for minification (faster than terser on Windows)
+    minify: 'esbuild',
+    // Reduce concurrent operations to prevent EMFILE errors
     rollupOptions: {
+      maxParallelFileOps: 2,
       output: {
         // Split code into smaller chunks
         manualChunks: {
@@ -32,9 +41,7 @@ export default defineConfig({
           'tensorflow': ['@tensorflow/tfjs']
         }
       }
-    },
-    // Use esbuild for minification instead of terser for better compatibility
-    minify: 'esbuild'
+    }
   },
   // Optimize dependencies for faster dev server startup
   optimizeDeps: {
