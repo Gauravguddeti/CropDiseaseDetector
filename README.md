@@ -4,7 +4,7 @@ A modern web application built with React.js and Material UI that helps farmers 
 
 ## 🚀 Live Demo
 
-Visit the live application: **[Your Vercel URL]** (will be updated after deployment)
+Visit the live application: **(https://cropdiseaseanalyzer.vercel.app/)** 
 
 **Build Status**: ✅ Ready for deployment - All major build issues resolved!
 
